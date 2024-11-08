@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Detail</title>
+    <link rel="stylesheet" href="css/stylespr.css">
+    <link rel="stylesheet" href="css/general.css">
+</head>
+<body>
+    <header class="header">
+        <div>
+            <img id="logo" src="Images/logo.png" alt="Store Logo">
+        </div>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="handelvogn.html" class="cart-icon">🛒 Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="product-detail">
+        <div class="product-image">
+            <img src="Images/product2.jpg" alt="Product Image">
+            <img src="Images/product2-1.jpg" alt="Product Image">
+            <img src="Images/product2-2.jpg" alt="Product Image">
+        </div>
+        <div class="product-info">
+            <h1>Alias</h1>
+            <p>Price: kr 2 399,00</p>
+            <p><ul>
+                <li>3X BIGGER CAPSULE — USB-C condenser mic captures a wide vocal range with a capsule up to 3X larger than other mics </li>
+                <li>LED LEVELS — Stay in control of your stream with a quick glance at Alias, which displays audio levels and mute status </li>
+                <li>ALL-in-1 SOFTWARE SOLUTION — Sonar for Streamers is the total pro streaming package, with audio mixing, easy drag 'n' drop app routing, and AI noise cancellation (free download) </li>
+                <li>SHOCK-MOUNT — Reduces unwanted vibrations for clearer sound, compatible with desktop stand or boom arm (sold separately) </li>
+                <li>RGB DOWNLIGHT — Customize an ambient RGB to sync with your other devices, plus change the colors of the level meter LEDs </li>
+            </ul></p>
+            <button onclick="addToCart()">Add to Cart</button>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Store. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function addToCart() {
+            alert('Alias added to cart!');
+        }
+    </script>
+</body>
+</html>

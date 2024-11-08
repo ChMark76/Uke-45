@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Detail</title>
+    <link rel="stylesheet" href="css/stylespr.css">
+    <link rel="stylesheet" href="css/general.css">
+</head>
+<body>
+    <header class="header">
+        <div>
+            <img id="logo" src="Images/logo.png" alt="Store Logo">
+        </div>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="handelvogn.html" class="cart-icon">🛒 Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="product-detail">
+        <div class="product-image">
+            <img src="Images/product3.jpg" alt="Product Image">
+            <img src="Images/product3-1.jpg" alt="Product Image">
+            <img src="Images/product3-2.jpg" alt="Product Image">
+            <img src="Images/product3-3.jpg" alt="Product Image">
+        </div>
+        <div class="product-info">
+            <h1>Nimbus+</h1>
+            <p>Price: kr 899,00</p>
+            <p><ul>
+                <li>Official Apple-licensed wireless connectivity for all Apple products including iOS, iPadOS and tvOS devices</li>
+                <li>Built-in rechargeable battery for 50 hours of gameplay on a single charge</li>
+                <li>Compatible with Apple Arcade and thousands of titles across the App Store</li>
+                <li>Tactile D-pad buttons, new Hall Effect magnetic triggers, and clickable L3/R3 joysticks</li>
+                <li>Included Nimbus+ iPhone Mount so you can easily attach your iPhone to your Nimbus+</li>
+            </ul></p>
+            <button onclick="addToCart()">Add to Cart</button>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Store. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function addToCart() {
+            alert('Nimbus+ added to cart!');
+        }
+    </script>
+</body>
+</html>

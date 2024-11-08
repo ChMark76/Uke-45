@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Detail</title>
+    <link rel="stylesheet" href="css/stylespr.css">
+    <link rel="stylesheet" href="css/general.css">
+</head>
+<body>
+    <header class="header">
+        <div>
+            <img id="logo" src="Images/logo.png" alt="Store Logo">
+        </div>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="handelvogn.html" class="cart-icon">🛒 Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="product-detail">
+        <div class="product-image">
+            <img src="Images/product5.jpg" alt="Product Image">
+            <img src="Images/product5-1.jpg" alt="Product Image">
+            <img src="Images/product5-2.jpg" alt="Product Image">
+            <img src="Images/product5-3jpg" alt="Product Image">
+        </div>
+        <div class="product-info">
+            <h1>Arctis GameBuds™ for PlayStation</h1>
+            <p>Price: kr 1 999,00</p>
+            <p><ul>
+                <li>High-speed 2.4GHz wireless plus Quick-Switch Bluetooth 5.3</li>
+                <li>Active Noise Cancellation with transparency mode</li>
+                <li>100+ PS5 audio presets with the Arctis Companion App for iOS & Android</li>
+                <li>Immersive 360° Spatial Audio on PlayStation, PC, mobile</li>
+                <li>10-hour battery with Qi Wireless Charging Case for 40h total.</li>
+                <li>IP55 Protection - Water/Dust/Dirt resistant</li>
+            </ul></p>
+            <button onclick="addToCart()">Add to Cart</button>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Store. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function addToCart() {
+            alert('Arctis GameBuds™ for PlayStation added to cart!');
+        }
+    </script>
+</body>
+</html>

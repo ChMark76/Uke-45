@@ -1,0 +1,55 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fffbe6;
+    color: #333;
+}
+
+/* Header styling */
+
+
+#logo{
+    max-width: 40px;
+    margin-left:50px ;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    padding: 10px 20px;
+}
+
+.nav-menu ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.cart-icon {
+    font-size: 17px;
+
+}
+
+/* Footer styling */
+.footer {
+    background-color: #333;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+

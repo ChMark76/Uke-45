@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mitt HTML-dokument</title>
+    <link rel="stylesheet" href="styles1.css"> 
+</head>
+
+<body>
+   
+    <header>
+        <h1>Velkommen til min nettside</h1>
+        <nav>
+            <ul>
+                <li><a href="#section1">Om oss</a></li>
+                <li><a href="#section2">Tjenester</a></li>
+                <li><a href="#section3">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        
+        <section id="section1" class="container">
+            <h2>Om oss</h2>
+            <p>Vi er et selskap som spesialiserer oss på teknologi og innovasjon.</p>
+            <img src="bilde.jpg" alt="Et eksempelbilde">
+        </section>
+
+        <section id="section2" class="container">
+            <h2>Tjenester</h2>
+            <ul>
+                <li>Webutvikling</li>
+                <li>Apputvikling</li>
+                <li>IT-konsultasjon</li>
+            </ul>
+        </section>
+
+        <section id="section3" class="container">
+            <h2>Kontakt oss</h2>
+            <p>Send oss en e-post på kontakt@eksempel.no.</p>
+            <form id="form1">
+                <label for="navn">Navn:</label>
+                <input type="text" id="navn" name="navn">
+                <label for="melding">Melding:</label>
+                <textarea id="melding" name="melding"></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+
+    <footer>
+        <p>© 2024 Mitt Selskap</p>
+    </footer>
+</body>
+</html>

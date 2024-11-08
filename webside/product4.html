@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Detail</title>
+    <link rel="stylesheet" href="css/stylespr.css">
+    <link rel="stylesheet" href="css/general.css">
+</head>
+<body>
+    <header class="header">
+        <div>
+            <img id="logo" src="Images/logo.png" alt="Store Logo">
+        </div>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="handelvogn.html" class="cart-icon">🛒 Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="product-detail">
+        <div class="product-image">
+            <img src="Images/product4.jpg" alt="Product Image">
+            <img src="Images/product4-1.jpg" alt="Product Image">
+            <img src="Images/product4-2.jpg" alt="Product Image">
+            <img src="Images/product4-3.jpg" alt="Product Image">
+        </div>
+        <div class="product-info">
+            <h1>Arctis Nova Pro Wireless for Playstation & PC</h1>
+            <p>Price: kr 4 199,00</p>
+            <p><ul>
+                <li>Active Noise Cancellation (ANC) with hear-through option</li>
+                <li>Premium Hi-Res Capable Neodymium Magnetic Drivers</li>
+                <li>AI-powered noise cancelling mic with stealth retractable design</li>
+                <li>Unlimited playing time with 2 hot-swap batteries + fast charging</li>
+                <li>OLED Base Station features on-board game audio presets for PS5</li>
+                <li>Simultaneous 2.4GHz & Bluetooth mixes game & mobile audio</li>
+                <li>Dual USB connections support PlayStation, PC, Mac, Switch, VR, & more</li>
+            </ul></p>
+            <button onclick="addToCart()">Add to Cart</button>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Store. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function addToCart() {
+            alert('Arctis Nova Pro Wireless for Playstation & PC added to cart!');
+        }
+    </script>
+</body>
+</html>

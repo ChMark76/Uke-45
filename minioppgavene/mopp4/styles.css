@@ -1,0 +1,41 @@
+
+.cont1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec1{
+    height: 70vh;
+    background-color: rgb(255, 255, 255);
+    display: inline-flex; 
+}
+
+
+article{
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+    padding: 1rem;
+    color: white;
+    font-size: 50%;
+    transition: 1s;
+    margin: 0.5rem;
+}
+
+article:hover{
+    flex: 3;
+    font-size: 130%;
+}
+
+.en{
+    background-image: url("test1.jpg");
+}
+
+.to{
+    background-image: url("test2.jpg");
+}
+
+.tre{
+    background-image: url("test3.jpg");
+}
